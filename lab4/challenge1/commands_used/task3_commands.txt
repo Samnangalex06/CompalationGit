@@ -1,0 +1,3 @@
+grep -Ei 'bot|scan|exploit|curl|wget' orginal_log/access.log >> analysis/task3_suspicious_agents.txt
+grep -Ei '/wp-admin|/admin|/\.git' orginal_log/access.log >> analysis/task3_suspicious_agents.txt
+grep -Ei '\?cmd=' orginal_log/access.log >> analysis/task3_suspicious_agents.txt

@@ -1,0 +1,6 @@
+forkchild
+forkchild.c
+forkchild.o
+result_forkchild.txt
+Parent: Waiting for child...
+Parent: Child finished.

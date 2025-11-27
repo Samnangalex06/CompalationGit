@@ -1,0 +1,1 @@
+grep "40[13]" original_log/access.log | awk '{print $1}' | sort | uniq -c | sort -nr

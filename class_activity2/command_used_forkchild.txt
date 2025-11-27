@@ -1,0 +1,15 @@
+  275  ls clss_activity1
+  276  ls class_activiy1
+  277  ls
+  278  mkdir lab3
+  279  cd lab3
+  280  ls
+  281  mkdir class_activity2
+  282  cd class_activity2
+  283  nano forkchild.c
+  284  gcc -c forkchild.c
+  285  gcc -c forkchild forkchild.c
+  286  gcc -o forkchild forkchild.c
+  287  nano forkchild.c
+  288  ./forkchild > result_forkchild.txt
+  289  history | tail -n 15 > command_used_forkchild.txt
